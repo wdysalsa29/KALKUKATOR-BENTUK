@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+
+    <!-- Bootstrap CSS -->
+
+    <title>Welcome</title>
+</head>
+
+<body>
+    <div class="container"> <!-- CONTAINER JUDUL-->
+      <nav class="navbar navbar-light bg-light">
+        <img src="img/instagram.png" alt="" width="30px">
+        <form class="form-inline">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
+      </nav>
+    <div class="container">
+        <!-- CONTAINER ISI -->
+        <div class="row">
+            <!-- SISI KIRI -->
+          <div class="kiri col-3  text-center"> 
+            <div class="segitiga">
+              <center><h3>Kalkulator Segitiga<br/></h3></center>
+              <table class="tabel">
+              <tr>
+              <td>Alas</td>
+              <td>:</td>
+              <td><input type="text" id="txtAlas" name="txtAlas"></td>
+              </tr>        
+              <tr>
+                  <td>Tinggi</td>
+                   <td>:</td>
+                        <td><input type="text" id="txtTinggi" name="txtTinggi"></td>
+                  </tr> 
+              <tr>
+                  <td>Luas</td>
+                  <td>:</td>
+                  <td><input type="text" id="txtLuas" name="txtLuas"></td>
+              </tr> 
+              
+              </table>
+              <div class="kotak">
+               
+               <button  type="button" class=" btn btn-danger btn-md" id="btnHitung" onclick="hitung() ;" >Hasil</button>
+                
+               
+              </div>
+                </div>
+          </div>
+          <!-- TENGAH -->
+          <div class="tengah col-6  px-5 py-5">
+            <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active"><!-- SLIDE PERTAMA-->
+                    <div class="container"></div>
+                    <img src="img/foto1.jpg" class="d-block img-fluid" alt="First slide"/>                 
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Slide yang pertama</h5>
+                      <p>Lorem ipsum</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item"><!-- SLIDE YANG KEDUA -->
+                    <div class="container"></div>
+                    <img src="img/foto2.jpg" class="d-block img-fluid" alt="Second slide"/>
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Slide yang kedua</h5>
+                      <p>Lorem ipsum</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item"><!-- SLIDE YANG KETIGA-->
+                    <div class="container"></div>
+                    <img src="img/foto3.jpg" class="d-block img-fluid" alt="Third slide"/>
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Slide yang ketiga</h5>
+                      <p>Lorem ipsum</p>
+                    </div>
+                  </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Next</span>
+                </a>
+              </div>
+          </div>
+          <!-- SISI KANAN -->
+          <div class="kanan col-3  px-5 py-5">
+            
+                <img src="img/login.png" class="card-img-top rounded-pill" alt="...">
+                <div class="card-body text-center">
+                  <h5 class="card-title">LOGIN</h5>
+                  <p class="card-text">Login dengan username dan password</p>
+                  <a href="login.html" class="btn btn-primary">LOGIN</a>
+                  <br>
+                  <br>
+                  <a href="register.html" class="btn btn-primary btn-sm">REGISTER</a>
+                </div>
+              </div>
+          </div>
+        </div>
+      </div>
+
+    <!-- Optional JavaScript -->
+    <script src="main.js"></script>
+    <link rel="stylesheet" href="js/bootstrap.js" />
+    <link rel="stylesheet" href="js/bootstrap.js.map" />
+    <link rel="stylesheet" href="js/bootstrap.min.js" />
+    <link rel="stylesheet" href="js/bootstrap.min.js.map" />
+    <!-- Optional JavaScript -->
+    <!-- js online -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
+
+</html>
